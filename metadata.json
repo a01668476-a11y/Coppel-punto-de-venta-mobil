@@ -1,0 +1,6 @@
+{
+  "name": "Coppel POS Móvil",
+  "description": "Sistema de Punto de Venta Móvil para asesores de piso en tiendas Coppel con consulta de inventario por pasillo, cálculo de Crédito Coppel en quincenas, escáner y cobro ágil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

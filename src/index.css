@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-coppel-blue: #005BAB;
+  --color-coppel-blue-dark: #003F78;
+  --color-coppel-blue-light: #EBF3FC;
+  --color-coppel-yellow: #FFD000;
+  --color-coppel-yellow-hover: #F2C400;
+  --color-coppel-yellow-light: #FFFBE6;
+  --color-coppel-red: #D92525;
+}
+
+/* Tablet POS Specific touch optimizations */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom slim scrollbar for tablet catalogues */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
